@@ -1,0 +1,56 @@
+    /* Базові налаштування */
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #ffffff;
+        color: #efe7e7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-image: url('https://img.magnific.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg');
+        background-size: cover;
+    }
+    
+    #quiz-screen {
+        justify-content: center;
+        align-items: center;
+        padding: 0 10%;
+    }
+    
+    #answers-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    
+    .answer-btn {
+        min-width: 250px;
+        height: 50px;
+        font-size: 18px;
+        background: yellow;
+        border-radius: 7px;
+        transition: .2s;
+    }
+    
+    .answer-btn:hover {
+        background: orange;
+        transition: .2s;
+    }
+    
+    .hide {
+        display: none !important;
+    }
+    
+    button {
+        color: black;
+        background-color: yellow;
+        border: none;
+        /**  2px solid green**/
+        border-radius: 15px;
+        padding: 7px 15px;
+        font-size: 25px;
+        font-weight: 900;
+    }
